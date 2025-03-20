@@ -207,7 +207,7 @@ app.get('/api/version', (req, res) => {
     console.log('[VERSION] Client requesting version check');
     console.log('[VERSION] Current APK version:', apkVersion);
 
-    const downloadUrl = 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/952133136/6d45a3c8-e14b-4027-8be4-8ad9de7a355b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250320%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250320T205106Z&X-Amz-Expires=300&X-Amz-Signature=92c85d7fe2bd47137b48b18e5c76c1fc0a1f0a39ac6cd9df55f8d9f0f3cb40a2&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dchouftv-latest.apk&response-content-type=application%2Fvnd.android.package-archive';
+    const downloadUrl = 'https://drive.google.com/file/d/1aBuwyjdjpPCKpmyaKzPD_aI9gbpmPzlR/view?usp=drive_link';
 
     res.json({
         version: apkVersion,
