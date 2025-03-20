@@ -1,0 +1,47 @@
+{
+  "username": "ZPVG8Bq31r",
+  "password": "cotp38A38Z",
+  "server_url": "http://magmaott.tv:1991/",
+  "sports_m3u": {
+    "sources": [
+      {
+        "name": "nord-client",
+        "url": "http://nord-client.com:8080/get.php?username=kS9pfmgt4qDD&password=ja4DrAWs6ZRn&type=m3u_plus&output=ts"
+      },
+      {
+        "name": "line-cv2025",
+        "url": "http://line.cv2025.biz:8080/get.php?username=726255161&password=677632688&type=m3u_plus"
+      },
+      {
+        "name": "gold-iptv",
+        "url": "http://goldiptvofficiel.tv:25461/get.php?username=philippe.debreuxv2&password=shD7dveDFmRd&type=m3u&output=ts"
+      },
+      {
+        "name": "ssglobal",
+        "url": "http://ssglobal.uk:8080/get.php?username=cemmutlu&password=34768935&type=m3u&output=ts"
+      },
+      {
+        "name": "aout-bilix",
+        "url": "http://aout.bilix.ma:2082/get.php?username=657587766543&password=g89e69d97q&type=m3u&output=ts"
+      },
+      {
+        "name": "ssc-sports",
+        "url": "http://line.protv.cc:80/get.php?username=B5H9G5C9K2/L6C2M5G8/m3u8"
+      }
+    ],
+    "update_interval": 3600,
+    "categories": [
+      "sport",
+      "sports",
+      "beinsports",
+      "bein",
+      "espn",
+      "canal+sport",
+      "eurosport",
+      "ssc",
+      "ssc-sports",
+      "ssc-extra",
+      "saudi"
+    ]
+  }
+}
